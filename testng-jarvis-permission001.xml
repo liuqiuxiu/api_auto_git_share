@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="感知平台--接口权限测试">
+
+	<!-- 测试登录接口 -->
+	<parameter name="excelPath"
+		value="src/test/resources/testCases/Interface_permissions001.xlsx"></parameter>
+	<test name="接口权限测试">
+		<classes>
+			<class name="Tenant_admin" />
+<!--			<class name="System_admin" />
+			<class name="Organization_admin" />
+			<class name="Base_role_user" />
+			<class name="Developer_user" />
+			<class name="Read_usr_only" />
+			<class name="Read_write_user" />
+			<class name="Operation_user" />
+			<class name="Read_devices_only" />
+			<class name="Read_write_devices" />
+			<class name="Operation_devices" />
+			<class name="Bind_devices" />
+			<class name="Read_product_only" />
+			<class name="Read_write_products" />
+			<class name="Read_organizations_only" />
+			<class name="Read_write_organizations" />
+			<class name="Read_roles_only" />
+			<class name="Read_write_roles" />
+			<class name="Read_ota_only" />
+			<class name="Read_write_ota" />
+			<class name="Operation_ota" />
+			<class name="Read_otaimage_only" />
+			<class name="Read_write_otaimage" />
+			<class name="Read_application_only" />
+			<class name="Read_write_application" />
+			<class name="Read_rule_only" />
+			<class name="Read_write_rule" />
+			<class name="Operation_rule" />-->
+
+
+		</classes>
+	</test>
+
+</suite>
